@@ -1,10 +1,11 @@
 import './App.css';
-
+import Home from './Pages/Home';
 function App() {
   return (
     <>
-    <div className='container bg-blue-500'>
+    <div className='container bg-green-500'>
       App Components
+      <Home/>
 
     </div>
     </>
