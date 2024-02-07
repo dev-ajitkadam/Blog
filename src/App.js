@@ -1,14 +1,14 @@
 import './App.css';
 import Home from './Pages/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
-    <>
-    <div className='container bg-green-500'>
-      App Components
-      <Home/>
-
-    </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
