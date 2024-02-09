@@ -491,17 +491,27 @@ video {
 .top-0 {
   top: 0px;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .mb-20 {
   margin-bottom: 5rem;
 }
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mb-0 {
+  margin-bottom: 0px;
+}
 .inline-block {
   display: inline-block;
 }
 .w-full {
   width: 100%;
+}
+.max-w-screen-md {
+  max-width: 768px;
 }
 .border-b-4 {
   border-bottom-width: 4px;
@@ -525,6 +535,9 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
+}
+.pt-20 {
+  padding-top: 5rem;
 }
 .text-center {
   text-align: center;
